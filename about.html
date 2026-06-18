@@ -9,9 +9,15 @@
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="site-title" href="/bahai-guidance-reader/">Bahá’í Guidance Reader</a>
+      <div class="header-row">
+        <a class="site-title" href="/bahai-guidance-reader/">Bahá’í Guidance Reader</a>
+        <label for="nav-toggle" class="nav-menu-btn" aria-label="Toggle navigation menu">
+          <span class="nav-menu-icon" aria-hidden="true"></span>
+        </label>
+      </div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" tabindex="-1">
       <p class="site-tagline">Research summaries grounded in authoritative sources — for study and meeting preparation, not institutional guidance.</p>
-      <nav class="site-nav">
+      <nav class="site-nav" aria-label="Main">
         
         <a href="/bahai-guidance-reader/explore.html">Explore</a>
         <a href="/bahai-guidance-reader/hubs/guidance-for-life.html">Life</a>
@@ -55,12 +61,12 @@
 <li><strong>External links</strong>: readers are pointed to <a href="https://www.bahai.org/library">bahai.org</a> for primary texts, not secondary mirrors.</li>
 </ul>
 <h3>Reusable patterns</h3>
-<table><thead><tr><th>Pattern</th><th>What it does</th></tr></thead><tbody>
+<div class="table-scroll"><table><thead><tr><th>Pattern</th><th>What it does</th></tr></thead><tbody>
 <tr><td>Question bank</td><td>600–1,200 word pages; direct answer first; related-question links for traversal</td></tr>
 <tr><td>Framework tables</td><td>Extract planning architecture (milestones, three protagonists, cycles) from UHJ spine messages</td></tr>
 <tr><td>Moderated submissions</td><td>Google Form → manual review → AI draft → polish audit → publish</td></tr>
 <tr><td>`polish_audit.py`</td><td>Scans for personal references, broken links, and source-rank issues before deploy</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h3>What is not shared</h3>
 <ul>
 <li>The full `sources/` corpus (~23k files) — copyright and size make public redistribution inappropriate.</li>
