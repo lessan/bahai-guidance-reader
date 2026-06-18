@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Bahá'í Guidance Reader</title>
+  <link rel="stylesheet" href="/bahai-guidance-reader/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="/bahai-guidance-reader/">Bahá'í Guidance Reader</a>
+      <p class="site-tagline">Research summaries grounded in authoritative sources — for study and meeting preparation, not institutional guidance.</p>
+      <nav class="site-nav">
+        <a href="/bahai-guidance-reader/questions/">Questions</a>
+        <a href="/bahai-guidance-reader/frameworks/">Frameworks</a>
+        <a href="/bahai-guidance-reader/syntheses/">Syntheses</a>
+        <a href="/bahai-guidance-reader/ask.html">Ask</a>
+        <a href="/bahai-guidance-reader/about.html">About</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="breadcrumbs"><a href="/bahai-guidance-reader/">Home</a><span aria-hidden="true"> › </span><span>About</span></nav>
+    <article class="content">
+      <h1>About this site</h1>
+<p><strong>Bahá'í Guidance Reader</strong> is a collection of research summaries — questions, frameworks, and syntheses — grounded in the authoritative Bahá'í corpus. Each article opens with a direct answer, then weaves quotations from the Writings, guidance from the Universal House of Justice, and (where appropriate) field examples from <em>Reflections on Growth</em>.</p>
+<p>These pages are for <strong>study and meeting preparation</strong>. They are not official Bahá'í guidance. Verify any quotation at <a href="https://www.bahai.org/library">bahai.org</a>. When in doubt, consult your Local Spiritual Assembly.</p>
+<hr>
+<h2>For family and friends</h2>
+<p>Browse the <a href="/bahai-guidance-reader/questions/">Questions</a> if you are preparing for a feast, children's class, study circle, or a conversation about the Faith. If you cannot find what you need, use <a href="/bahai-guidance-reader/ask.html">Ask a question</a> — submissions are reviewed, and new articles are written and published over time.</p>
+<hr>
+<h2>For Bahá'ís building with AI</h2>
+<p>If you are using AI tools to support community work — tutoring, animating, serving on institutions, preparing deepenings — this section describes <strong>what was built and how</strong>, in case the architecture is useful for your own projects.</p>
+<h3>What this is</h3>
+<p>A <strong>query-driven intelligence system</strong> over a curated Bahá'í corpus:</p>
+<ol>
+<li><strong>Acquisition</strong> — monitors and downloaders collect authoritative texts, institutional messages, news, Ruhi materials, and scholarly sources into `raw/`.</li>
+<li><strong>Conversion</strong> — everything becomes searchable markdown in `sources/` (the citation surface; not redistributed on this site).</li>
+<li><strong>Intelligence layer</strong> — concepts, frameworks, a 100+ question bank, syntheses, and time-series data in structured wiki pages.</li>
+<li><strong>Publish layer</strong> — a subset of those pages, polished and link-checked, becomes this static site.</li>
+</ol>
+<p>There is no database and no public chatbot. The value is <strong>pre-computed, tier-disciplined synthesis</strong> that makes grounded answers cheap to produce in local Claude sessions.</p>
+<h3>Quality model</h3>
+<ul>
+<li><strong>Authority tiers</strong> (A–F): Writings and the Báb at the top; UHJ and Guardian next; ITC, R.O.G., and scholarly sources explicitly labelled — never cited above their tier.</li>
+<li><strong>Authenticity pass</strong>: every publishable page checked for verbatim quotations, composite-quote risks, and misattributed authority.</li>
+<li><strong>Style</strong>: Ruhi-methodology interleaving — short attributed quotations woven with narrative, not walls of excerpt.</li>
+<li><strong>External links</strong>: readers are pointed to <a href="https://www.bahai.org/library">bahai.org</a> for primary texts, not secondary mirrors.</li>
+</ul>
+<h3>Reusable patterns</h3>
+<tr><td>Pattern</td><td>What it does</td></tr>
+<tr><td>Question bank</td><td>600–1,200 word pages; direct answer first; related-question links for traversal</td></tr>
+<tr><td>Framework tables</td><td>Extract planning architecture (milestones, three protagonists, cycles) from UHJ spine messages</td></tr>
+<tr><td>Moderated submissions</td><td>Google Form → manual review → AI draft → polish audit → publish</td></tr>
+<tr><td>`polish_audit.py`</td><td>Scans for personal references, broken links, and tier issues before deploy</td></tr>
+<h3>What is not shared</h3>
+<ul>
+<li>The full `sources/` corpus (~23k files) — copyright and size make public redistribution inappropriate.</li>
+<li>Raw acquisition tooling as a hosted service — the pipeline runs locally.</li>
+<li>Instant public Q&amp;A — answers are editorially produced, not streamed from a model.</li>
+</ul>
+<h3>Replication</h3>
+<p><strong>High bar:</strong> building your own corpus, intelligence layer, and authenticity discipline.</p>
+<p><strong>Lower bar:</strong> read and share these articles; suggest questions via the form; adapt the publish scripts (`tools/publish/` in the private knowledge-base repo) for your own markdown corpus.</p>
+<p>If you are experimenting with AI for Bahá'í community work, the durable lesson is: <strong>the moat is tier discipline and citation verification</strong>, not the model. A smaller, verified synthesis layer outperforms a raw RAG dump every time.</p>
+<hr>
+<h2>Contact</h2>
+<p>Questions about the site or the methodology: use <a href="/bahai-guidance-reader/ask.html">Ask a question</a>, or reach out to the maintainer directly.</p>
+    </article>
+    <footer class="page-footer">
+      <nav class="footer-nav">
+        <a href="/bahai-guidance-reader/questions/">Questions</a> ·
+        <a href="/bahai-guidance-reader/ask.html">Ask</a> ·
+        <a href="/bahai-guidance-reader/about.html">About</a>
+      </nav>
+      <p class="disclaimer">These pages are synthesized research summaries for personal study and meeting preparation. They are not official Bahá'í guidance. Verify quotations at bahai.org. When in doubt, consult your Local Spiritual Assembly.</p>
+    </footer>
+  </main>
+</body>
+</html>
