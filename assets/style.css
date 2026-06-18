@@ -201,3 +201,47 @@ body {
   border: 1px solid var(--border);
   border-radius: 8px;
 }
+
+.prompt-list {
+  font-family: system-ui, sans-serif;
+  padding-left: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.prompt-list li {
+  margin: 0.75rem 0;
+  line-height: 1.5;
+}
+
+.prompt-intro {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.tag-deep {
+  font-family: system-ui, sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  margin-left: 0.35rem;
+}
+
+.series-block {
+  margin-top: 2rem;
+}
+
+.series-desc {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.card-count {
+  margin-top: 0.5rem !important;
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem !important;
+}
