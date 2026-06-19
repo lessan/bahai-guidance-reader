@@ -7,7 +7,7 @@
   --border: #e4e0d8;
   --card: #ffffff;
   --quote: #f3f0ea;
-  --max: 42rem;
+  --max: 56rem;
   --touch: 2.75rem;
 }
 
@@ -75,6 +75,8 @@ body {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .nav-menu-btn {
@@ -230,11 +232,18 @@ body {
   text-decoration: underline;
 }
 
+.home-intro {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 0 1.25rem;
+}
+
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 .card {
