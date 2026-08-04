@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Phases of the Nine Year Plan (2022–2031) — Bahá’í Guidance Reader</title>
   <link rel="stylesheet" href="/bahai-guidance-reader/assets/style.css">
+  <script>try{var t=localStorage.getItem('site-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <div class="header-row">
         <a class="site-title" href="/bahai-guidance-reader/">Bahá’í Guidance Reader</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">Dark</button>
         <label for="nav-toggle" class="nav-menu-btn" aria-label="Toggle navigation menu">
           <span class="nav-menu-icon" aria-hidden="true"></span>
         </label>
@@ -35,6 +37,7 @@
     <nav class="breadcrumbs"><a href="/bahai-guidance-reader/">Home</a><span aria-hidden="true"> › </span><a href="/bahai-guidance-reader/hubs/community-and-plan.html">Community &amp; the Plan</a><span aria-hidden="true"> › </span><span>Phases of the Nine Year Plan (2022–2031)</span></nav>
     <article class="content">
       <h1>Phases of the Nine Year Plan (2022–2031)</h1>
+<p class="page-updated">Last updated <time datetime="2026-04-25">25 April 2026</time></p>
 <h2>Orientation</h2>
 <p>The <strong>Nine Year Plan</strong> (Riḍván 2022 – Riḍván 2031) is the second of the global Plans in the quarter-century enterprise opened by the <a href="/bahai-guidance-reader/questions/uhj-vs-guardianship.html">Universal House of Justice</a> at Riḍván 2021. Where the twenty-five-year enterprise of 1996–2021 raised up the capacity of individuals, communities, and institutions to initiate and sustain programmes of growth in <a href="/bahai-guidance-reader/questions/neighbourhood-vs-village-vs-cluster.html">clusters</a>, the new series turns that capacity outward toward, in the words of the <strong>30 December 2021</strong> letter, <em>“the release of the society-building power of the Faith in ever-greater measures.”</em> The Nine Year Plan is the first serious test of whether that outward turn can be realised at global scale.</p>
 <p>The Plan is unusual in two respects: it is <em>nine</em> years long (the longest global Plan since the 1964–1973 plan that bears the same name), and it is explicitly divided into two <strong>phases</strong> — an opening phase of four years (Riḍván 2022 – Riḍván 2026) and a second phase of five years (Riḍván 2026 – Riḍván 2031). The phasing is not merely calendrical. It was introduced to give National Spiritual Assemblies and Regional Bahá’í Councils two horizons against which to project the advancement of the cluster base — a nearer one at Riḍván 2026 and a farther one at Riḍván 2031. Phase 1 has therefore carried a distinctive character: the first full reckoning with the global cluster scheme (22,000+ clusters after boundary re-evaluation), a concerted push to establish at least one third-milestone cluster in every country and region, and a deliberate maturing of the society-building dimensions of grassroots work. Phase 2 will inherit that foundation and is expected to broaden the emphasis from cluster-by-cluster advancement toward the deeper transformation of populations in places where Bahá’í activity has become prevalent.</p>
@@ -94,7 +97,7 @@
 </ul>
 <h2>References</h2>
 <ol>
-<li><strong>30 December 2021</strong> — UHJ to the Conference of the Continental Boards of Counsellors. The charter of the Nine Year Plan; does not name “phases.” — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/muhj-2001-2022/1">bahai.org</a></li>
+<li><strong>30 December 2021</strong> — UHJ to the Conference of the Continental Boards of Counsellors. The charter of the Nine Year Plan; does not name “phases.” — <a href="https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/muhj-2001-2022/1">bahai.org</a></li>
 </ol>
 <h2>Further reading</h2>
 <ul>
@@ -103,7 +106,6 @@
 <li><a href="/bahai-guidance-reader/questions/uhj-vs-guardianship.html">How does the Universal House of Justice differ from the Guardianship in nature, function, and authority?</a> — issuing body</li>
 <li><a href="/bahai-guidance-reader/questions/counsellors-vs-spiritual-assemblies.html">How does the Counsellors‘ arm differ from Spiritual Assemblies — and what is meant by ’the learned and the rulers‘?</a> — Continental Boards of Counsellors receive the charter and calibration letters</li>
 <li>Counsellors Conference — the genre of the mid-Plan consultations</li>
-<li><a href="/bahai-guidance-reader/questions/what-makes-a-programme-of-growth-intensive.html">What is an Intensive Programme of Growth, what makes one intensive, and what are its constituent elements?</a> — the operational unit of the phases</li>
 <li><a href="/bahai-guidance-reader/questions/what-makes-a-programme-of-growth-intensive.html">What is an Intensive Programme of Growth, what makes one intensive, and what are its constituent elements?</a> — the Phase 1 target for ~11,000 clusters</li>
 <li><a href="/bahai-guidance-reader/questions/neighbourhood-vs-village-vs-cluster.html">How does a neighbourhood differ from a village, and how do both relate to the cluster?</a> — the 22,000 clusters of the world</li>
 <li><a href="/bahai-guidance-reader/questions/institute-process-as-process-not-course.html">What is the institute process, why is it called a ‘process’ rather than a ‘course,’ and what does its maturity look like?</a> — the process through which Phase 1 expanded human resources</li>
@@ -125,5 +127,6 @@
       <p class="disclaimer">These pages are synthesized research summaries for personal study and meeting preparation (<a href="/bahai-guidance-reader/about.html">About</a>). They are not official Bahá’í guidance. Verify quotations at <a href="https://www.bahai.org/library">bahai.org</a> and guidance with Bahá’í institutions.</p>
     </footer>
   </main>
+  <script>(function(){var b=document.getElementById('theme-toggle');if(!b)return;var K='site-theme',s=null;try{s=localStorage.getItem(K)}catch(e){}var m=window.matchMedia('(prefers-color-scheme: dark)');var t=(s==='dark'||s==='light')?s:(m.matches?'dark':'light');function a(n){t=n;document.documentElement.dataset.theme=n;var d=n==='dark';b.textContent=d?'Light':'Dark';b.setAttribute('aria-pressed',String(d));}a(t);b.addEventListener('click',function(){a(t==='dark'?'light':'dark');try{localStorage.setItem(K,t)}catch(e){}});m.addEventListener('change',function(e){var c=null;try{c=localStorage.getItem(K)}catch(_){}if(c!=='dark'&&c!=='light')a(e.matches?'dark':'light')});})()</script>
 </body>
 </html>

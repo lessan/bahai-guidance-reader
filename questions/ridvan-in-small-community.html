@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>How should Riḍván be observed in a home or small community? — Bahá’í Guidance Reader</title>
   <link rel="stylesheet" href="/bahai-guidance-reader/assets/style.css">
+  <script>try{var t=localStorage.getItem('site-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <div class="header-row">
         <a class="site-title" href="/bahai-guidance-reader/">Bahá’í Guidance Reader</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">Dark</button>
         <label for="nav-toggle" class="nav-menu-btn" aria-label="Toggle navigation menu">
           <span class="nav-menu-icon" aria-hidden="true"></span>
         </label>
@@ -35,6 +37,7 @@
     <nav class="breadcrumbs"><a href="/bahai-guidance-reader/">Home</a><span aria-hidden="true"> › </span><a href="/bahai-guidance-reader/hubs/guidance-for-life.html">Guidance for Life</a><span aria-hidden="true"> › </span><a href="/bahai-guidance-reader/series/holy-day-year.html">Holy Day Year</a><span aria-hidden="true"> › </span><span>How should Riḍván be observed in a home or small community?</span></nav>
     <article class="content">
       <h1>How should Riḍván be observed in a home or small community?</h1>
+<p class="page-updated">Last updated <time datetime="2026-06-18">18 June 2026</time></p>
 <p>Riḍván is the King of Festivals — twelve days commemorating Bahá’u’lláh’s Declaration of His Mission in the Garden of Riḍván outside Baghdád in 1863. For a home or small community, observance is not a matter of matching the programme of a large urban gathering; it is a matter of fulfilling the law’s obligations on the first, ninth, and twelfth days (work forbidden; gathering on those days among the community‘s priorities), honouring the festival’s full span with whatever devotion and hospitality capacity allows, and letting the historical reality of the Declaration shape the atmosphere. The House has not prescribed a liturgical form; a handful of friends in a living room and a neighbourhood with a tent in a garden both stand before the same sacred anniversary.</p>
 <hr>
 <h2>The Shape of the Festival</h2>
@@ -139,5 +142,6 @@
       <p class="disclaimer">These pages are synthesized research summaries for personal study and meeting preparation (<a href="/bahai-guidance-reader/about.html">About</a>). They are not official Bahá’í guidance. Verify quotations at <a href="https://www.bahai.org/library">bahai.org</a> and guidance with Bahá’í institutions.</p>
     </footer>
   </main>
+  <script>(function(){var b=document.getElementById('theme-toggle');if(!b)return;var K='site-theme',s=null;try{s=localStorage.getItem(K)}catch(e){}var m=window.matchMedia('(prefers-color-scheme: dark)');var t=(s==='dark'||s==='light')?s:(m.matches?'dark':'light');function a(n){t=n;document.documentElement.dataset.theme=n;var d=n==='dark';b.textContent=d?'Light':'Dark';b.setAttribute('aria-pressed',String(d));}a(t);b.addEventListener('click',function(){a(t==='dark'?'light':'dark');try{localStorage.setItem(K,t)}catch(e){}});m.addEventListener('change',function(e){var c=null;try{c=localStorage.getItem(K)}catch(_){}if(c!=='dark'&&c!=='light')a(e.matches?'dark':'light')});})()</script>
 </body>
 </html>

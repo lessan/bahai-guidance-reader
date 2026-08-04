@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Engagement with the Discourses of Society — Bahá’í Guidance Reader</title>
   <link rel="stylesheet" href="/bahai-guidance-reader/assets/style.css">
+  <script>try{var t=localStorage.getItem('site-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <div class="header-row">
         <a class="site-title" href="/bahai-guidance-reader/">Bahá’í Guidance Reader</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">Dark</button>
         <label for="nav-toggle" class="nav-menu-btn" aria-label="Toggle navigation menu">
           <span class="nav-menu-icon" aria-hidden="true"></span>
         </label>
@@ -35,6 +37,7 @@
     <nav class="breadcrumbs"><a href="/bahai-guidance-reader/">Home</a><span aria-hidden="true"> › </span><a href="/bahai-guidance-reader/hubs/community-and-plan.html">Community &amp; the Plan</a><span aria-hidden="true"> › </span><span>Engagement with the Discourses of Society</span></nav>
     <article class="content">
       <h1>Engagement with the Discourses of Society</h1>
+<p class="page-updated">Last updated <time datetime="2026-04-25">25 April 2026</time></p>
 <p>The Bahá’í community’s engagement with the prevalent discourses of society is one of three coordinate <strong>dimensions of Bahá’í endeavour</strong> named by the Universal House of Justice — alongside the programme of growth (expansion and consolidation) and social action. The three are not parallel tracks; the 30 December 2021 letter launching the Nine Year Plan describes them as <em>“dimensions of a single, unified, outward-looking endeavour carried out at the grassroots of society.”</em> This synthesis treats the discourse dimension specifically; for the unified framework see <a href="/bahai-guidance-reader/frameworks/three-dimensions-of-endeavour.html">Three Dimensions of Bahá’í Endeavour</a>.</p>
 <p>By <em>discourses of society</em> the House of Justice means the conversations already underway in schools, universities, professional bodies, civic associations, governments, and intergovernmental institutions about the great problems facing humanity — peace, justice, the equality of women and men, the relation of religion and science, the disparity between rich and poor, governance at the global scale, the climate emergency. The Bahá’í community’s contribution to those conversations is offered as <em>insight</em>, not as prescription, and is grounded in three decades of public statements that this page treats as a single arc.</p>
 <h2>The verbal antecedent</h2>
@@ -94,15 +97,15 @@
 <p>The 28 November 2023 message of the Universal House of Justice on the centenary of the ascension of ‘Abdu’l-Bahá observes that the Bahá’í community <em>“now millions strong, has today spread to some one hundred thousand localities in 235 countries and territories.”</em> This scale matters for the discourse dimension specifically: discourse contribution carries weight insofar as the contributing community is genuinely living the principle it articulates. A community present at this geographic and demographic scale, with a sustained pattern of community-building activity at the grassroots, is in a different position to contribute to the prevalent discourses of society than a small community speaking from outside the field of action.</p>
 <h2>References</h2>
 <ol>
-<li>Tablets of Bahá’u’lláh — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/bahaullah/tablets-bahaullah/1">bahai.org</a></li>
-<li>Messages from the Universal House of Justice, 2001–2022 — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/muhj-2001-2022/1">bahai.org</a></li>
-<li>Social Action — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/compilations/social-action/1">bahai.org</a></li>
-<li><em>One Common Faith</em> — bahai.org — bahai.org</li>
-<li><em>The Promise of World Peace</em> — bahai.org — bahai.org</li>
-<li><em>The Prosperity of Humankind</em> — bahai.org — bahai.org</li>
-<li>Universal House of Justice, 28 November 2023 — bahai.org — bahai.org</li>
-<li>BIC statements archive — bahai.org — bahai.org</li>
-<li>Selections from the Writings of ‘Abdu’l-Bahá — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/abdul-baha/selections-writings-abdul-baha/1">bahai.org</a></li>
+<li>Tablets of Bahá’u’lláh — <a href="https://www.bahai.org/library/authoritative-texts/bahaullah/tablets-bahaullah/1">bahai.org</a></li>
+<li>Messages from the Universal House of Justice, 2001–2022 — <a href="https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/muhj-2001-2022/1">bahai.org</a></li>
+<li>Social Action — <a href="https://www.bahai.org/library/authoritative-texts/compilations/social-action/1">bahai.org</a></li>
+<li><em>One Common Faith</em> — bahai.org</li>
+<li><em>The Promise of World Peace</em> — bahai.org</li>
+<li><em>The Prosperity of Humankind</em> — bahai.org</li>
+<li>Universal House of Justice, 28 November 2023 — bahai.org</li>
+<li>BIC statements archive — bahai.org</li>
+<li>Selections from the Writings of ‘Abdu’l-Bahá — <a href="https://www.bahai.org/library/authoritative-texts/abdul-baha/selections-writings-abdul-baha/1">bahai.org</a></li>
 </ol>
 <h2>Related questions</h2>
 <ul>
@@ -135,5 +138,6 @@
       <p class="disclaimer">These pages are synthesized research summaries for personal study and meeting preparation (<a href="/bahai-guidance-reader/about.html">About</a>). They are not official Bahá’í guidance. Verify quotations at <a href="https://www.bahai.org/library">bahai.org</a> and guidance with Bahá’í institutions.</p>
     </footer>
   </main>
+  <script>(function(){var b=document.getElementById('theme-toggle');if(!b)return;var K='site-theme',s=null;try{s=localStorage.getItem(K)}catch(e){}var m=window.matchMedia('(prefers-color-scheme: dark)');var t=(s==='dark'||s==='light')?s:(m.matches?'dark':'light');function a(n){t=n;document.documentElement.dataset.theme=n;var d=n==='dark';b.textContent=d?'Light':'Dark';b.setAttribute('aria-pressed',String(d));}a(t);b.addEventListener('click',function(){a(t==='dark'?'light':'dark');try{localStorage.setItem(K,t)}catch(e){}});m.addEventListener('change',function(e){var c=null;try{c=localStorage.getItem(K)}catch(_){}if(c!=='dark'&&c!=='light')a(e.matches?'dark':'light')});})()</script>
 </body>
 </html>

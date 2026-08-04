@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Bahá’í Authority Framework — a Guide — Bahá’í Guidance Reader</title>
   <link rel="stylesheet" href="/bahai-guidance-reader/assets/style.css">
+  <script>try{var t=localStorage.getItem('site-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <div class="header-row">
         <a class="site-title" href="/bahai-guidance-reader/">Bahá’í Guidance Reader</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">Dark</button>
         <label for="nav-toggle" class="nav-menu-btn" aria-label="Toggle navigation menu">
           <span class="nav-menu-icon" aria-hidden="true"></span>
         </label>
@@ -35,6 +37,7 @@
     <nav class="breadcrumbs"><a href="/bahai-guidance-reader/">Home</a><span aria-hidden="true"> › </span><a href="/bahai-guidance-reader/hubs/the-faith.html">The Bahá’í Faith</a><span aria-hidden="true"> › </span><span>The Bahá’í Authority Framework — a Guide</span></nav>
     <article class="content">
       <h1>The Bahá’í Authority Framework — a Guide</h1>
+<p class="page-updated">Last updated <time datetime="2026-04-24">24 April 2026</time></p>
 <p>This is a guide for someone who has hit the practical question: <em>how do I know what is authoritative?</em> A study-circle tutor who is asked what Bahá’u’lláh “really meant” by a passage. A parent preparing a deepening for youth and wondering whether a Riḍván message outweighs a scholar’s monograph. A friend drawn into a genuine disagreement about what the Faith teaches on a matter the Writings do not settle. A researcher trying to decide whether a letter signed by the Department of the Secretariat is as binding as one signed by the members of the House themselves. All of these are the same question in different clothes, and the Bahá’í community has a precise framework for answering it. This synthesis lays it out the way you might explain it to that reader — as a thing you walk through, not a list you memorise.</p>
 <p>The sections below walk through the scriptural, constitutional, and scholarly grounding in the order a reader needs it — from the Covenant texts through infallibility, the post-1957 framework, and the conferred-authority institutions. For the saturated reference treatment with full source-type tables and citations, see <a href="/bahai-guidance-reader/concepts/authority-and-infallibility.html">Authority and infallibility</a>.</p>
 <h2>The shape of the answer</h2>
@@ -87,14 +90,14 @@
 </ul>
 <h2>References</h2>
 <ol>
-<li>Messages from the Universal House of Justice, 2001–2022 — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/muhj-2001-2022/1">bahai.org</a></li>
-<li>Universal House Of Justice Compilation — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/compilations/universal-house-of-justice-compilation/1">bahai.org</a></li>
-<li>The World Order of Bahá’u’lláh — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/shoghi-effendi/world-order-bahaullah/1">bahai.org</a></li>
-<li>Covenant — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/compilations/covenant/1">bahai.org</a></li>
-<li>Some Answered Questions — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/abdul-baha/some-answered-questions/1">bahai.org</a></li>
-<li>Messages from the Universal House of Justice, 1963–1986 — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/muhj-1963-1986/1">bahai.org</a></li>
-<li>Issues Related to the Study of the Bahá’í Faith — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/compilations/issues-related-study-bahai-faith/1">bahai.org</a></li>
-<li>The Institution Of The Counsellors — bahai.org — <a href="https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/the-institution-of-the-counsellors/1">bahai.org</a></li>
+<li>Messages from the Universal House of Justice, 2001–2022 — <a href="https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/muhj-2001-2022/1">bahai.org</a></li>
+<li>Universal House Of Justice Compilation — <a href="https://www.bahai.org/library/authoritative-texts/compilations/universal-house-of-justice-compilation/1">bahai.org</a></li>
+<li>The World Order of Bahá’u’lláh — <a href="https://www.bahai.org/library/authoritative-texts/shoghi-effendi/world-order-bahaullah/1">bahai.org</a></li>
+<li>Covenant — <a href="https://www.bahai.org/library/authoritative-texts/compilations/covenant/1">bahai.org</a></li>
+<li>Some Answered Questions — <a href="https://www.bahai.org/library/authoritative-texts/abdul-baha/some-answered-questions/1">bahai.org</a></li>
+<li>Messages from the Universal House of Justice, 1963–1986 — <a href="https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/muhj-1963-1986/1">bahai.org</a></li>
+<li>Issues Related to the Study of the Bahá’í Faith — <a href="https://www.bahai.org/library/authoritative-texts/compilations/issues-related-study-bahai-faith/1">bahai.org</a></li>
+<li>The Institution Of The Counsellors — <a href="https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/the-institution-of-the-counsellors/1">bahai.org</a></li>
 </ol>
     </article>
     <footer class="page-footer">
@@ -106,5 +109,6 @@
       <p class="disclaimer">These pages are synthesized research summaries for personal study and meeting preparation (<a href="/bahai-guidance-reader/about.html">About</a>). They are not official Bahá’í guidance. Verify quotations at <a href="https://www.bahai.org/library">bahai.org</a> and guidance with Bahá’í institutions.</p>
     </footer>
   </main>
+  <script>(function(){var b=document.getElementById('theme-toggle');if(!b)return;var K='site-theme',s=null;try{s=localStorage.getItem(K)}catch(e){}var m=window.matchMedia('(prefers-color-scheme: dark)');var t=(s==='dark'||s==='light')?s:(m.matches?'dark':'light');function a(n){t=n;document.documentElement.dataset.theme=n;var d=n==='dark';b.textContent=d?'Light':'Dark';b.setAttribute('aria-pressed',String(d));}a(t);b.addEventListener('click',function(){a(t==='dark'?'light':'dark');try{localStorage.setItem(K,t)}catch(e){}});m.addEventListener('change',function(e){var c=null;try{c=localStorage.getItem(K)}catch(_){}if(c!=='dark'&&c!=='light')a(e.matches?'dark':'light')});})()</script>
 </body>
 </html>
